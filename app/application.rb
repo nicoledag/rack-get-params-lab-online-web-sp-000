@@ -22,7 +22,7 @@ class Application
       item = req.params["i"]
       if@@items.include?(i)
         @@cart << item
-        
+
 
     else
       resp.write "Path Not Found"
